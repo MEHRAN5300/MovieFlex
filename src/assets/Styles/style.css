@@ -1,0 +1,13 @@
+body{ background-color: black; }
+.navbar .search_form { width: 40%; }
+.navbar .search_form form { background: white; border-radius: 6px; height: 50px; }
+.navbar .search_form form button { width: 20%; border: 0; border-left: 2px solid #CCC; border-radius: 0; color: #0d6efd; }
+.navbar .search_form form input {padding-inline: 30px;}
+.navbar .main_logo a { font-size: 40px; font-weight: 800; -webkit-text-stroke: 1px salmon; color: darkred; text-shadow: 4px 3px 4px #FF9800; }
+.navbar .account_btn .custom_btn { margin-inline: 10px; padding: 8px 40px; }
+
+.popular_movies { height: 80vh; overflow: hidden; }
+.popular_movies .carousel-inner .carousel-item img { width: 100%; height: 80vh; object-fit: cover; filter: brightness(0.5); }
+.popular_movies .carousel-caption h3 span { background: linear-gradient(45deg, darkred, #0d6efd); padding: 10px 20px; border-radius: 10px; font-size: 15px; margin-left: 20px; }
+.popular_movies .carousel-caption { text-align: left; }
+.popular_movies .carousel-caption button { background: linear-gradient(45deg, darkred, #0d6efd); border: 0; padding: 20px 40px; font-size: 20px; border-radius: 10px;     color: white;}
